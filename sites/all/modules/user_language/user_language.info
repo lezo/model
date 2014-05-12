@@ -1,0 +1,6 @@
+name = User language
+description = Модуль определения языка браузера.
+core = 7.x
+
+dependencies[] = language_cookie
+scripts[] = js/user_language.js

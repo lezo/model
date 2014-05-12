@@ -1,0 +1,114 @@
+/*----------- NAV ALL -------------*/
+.block--locale-language, .block--system-main-menu, .block--menu-menu-footer-main, .block--menu-menu-menu-fixed-left, .block--superfish-1 {
+  .menu, .block__content {
+    float: right;
+    margin: 0;
+    font-family: 'open-sans';
+    font-weight: 700;
+    li {
+      a {
+        @include font-size(14);
+        display: block;
+        padding: 10px 5px;
+        text-transform: uppercase;
+        &:hover, &.active {
+          border-bottom: 3px solid #fff;
+          color: $color_nav;
+          padding-bottom: 7px;
+        }
+      }
+      &.last {
+        margin-right: 0;
+      }
+    }
+  }
+}
+/*------ main -----*/
+.block--system-main-menu, .block--superfish-1 {
+  .menu {
+    li {
+      margin: 0 px-to-rem(24.8);
+      @include breakpoint($tab) {
+        margin: 0 px-to-rem(4);
+      }
+      a {
+      }
+      ul {
+        width: 100%;
+        border-bottom: 1px solid #fff;
+        li {
+          float: left;
+          width: auto;
+          position: static !important;
+          a {
+            color: $color_nav;
+            font-family: 'open-sans';
+            font-weight: 300;
+            margin-bottom: -1px;
+            &:hover, &.active {
+              border-bottom: 1px solid;
+              border-color: rgba(0,0,0,0.4);
+              padding: 10px 5px 9px;
+              color: $color_nav;
+            }
+          }
+        }
+      }
+      &.first {
+        margin-left: 0;
+      }
+    }
+  }
+}
+/*------ footer -----*/
+.block--menu-menu-footer-main {
+  position: relative;
+  height: 100%;
+  .menu {
+    @include centre(y);
+    right: 0;
+    li {
+      margin: 0 px-to-rem(5);
+      @include breakpoint($tab) {
+        margin: 0 px-to-rem(0);
+      }
+      a {
+        @include font-size(12);
+        padding: 5px 5px;
+        @include breakpoint($tab) {
+          padding: 5px 4px;
+        }
+        &:hover, &.active {
+          border-bottom: 2px solid #fff;
+          color: $color_nav;
+          padding-bottom: 3px;
+        }
+      }
+    }
+  }
+}
+/*------ fixed left -----*/
+.block--menu-menu-menu-fixed-left {
+  background: url("../images/fixed_block_left.png") repeat-x top left;
+  position: fixed;
+  left: -130px;
+  top: 363px;
+  height: 46px;
+  width: 306px;
+  @include rotate(-90deg);
+  .menu {
+    padding: 0;
+    padding-bottom: 12px;
+    li {
+      margin: 0 28px;
+      a {
+        font-family: 'open-sans';
+        font-weight: 400;
+        font-size: 12px;
+      }
+      &.last {
+        margin: 0 28px;
+      }
+    }
+  }
+}
