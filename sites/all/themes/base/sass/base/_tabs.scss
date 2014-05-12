@@ -1,0 +1,16 @@
+ul.tabs--primary {
+  li {
+    a {
+      background: #fff;
+      color: #0069ff;
+      &:hover {
+        color: #0069ff;
+      }
+    }
+    &.active {
+      a {
+        color: #0069ff;
+      }
+    }
+  }
+}

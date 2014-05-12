@@ -1,0 +1,13 @@
+$total-columns: 32;
+$column-width: 42.25px;
+$gutter-width: 8px;
+$grid-padding: $gutter-width;
+
+$mob: 0 480px;
+$tab: max-width 767px;
+$laptop: 768px 1024px;
+$desk: 1025px 1360px;
+$hd: min-width 1361px;
+
+$header: 125px;
+$footer: 32px;

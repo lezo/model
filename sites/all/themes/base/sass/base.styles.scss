@@ -1,0 +1,183 @@
+// Import external libraries.
+@import "compass";
+@import "breakpoint";
+@import "susy";
+@import "toolkit-no-css";
+
+@import "variables/**/*";
+@import "abstractions/**/*";
+@import "base/**/*";
+@import "components/**/*";
+
+
+
+/*-- Основные --*/
+html {
+  font-size: 16px;
+}
+html, body {
+  height:100%;
+}
+body {
+  a {
+    color: $color_nav;
+    text-decoration: none;
+    &:hover, &.active {
+      color: $color_nav_sub;
+    }
+  }
+}
+.l-page {
+  background: url('../images/bg.jpg') no-repeat;
+  background-size: cover;
+  position:relative;
+  min-height:100%;
+}
+.l-page-content {
+  position:relative;
+}
+.l-header {
+  //@include susy-grid-background;
+  @include container;
+  height: $header;
+}
+.l-main {
+  @include container;
+  position:relative;
+  padding-bottom: $footer + 10;
+}
+.l-footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: $footer;
+}
+.l-region--footer {
+  @include container;
+}
+
+/*------------------------------ HEADER ----------------------------*/
+.l-header {
+  .l-branding {
+    @include span-columns(3, 32);
+    @include breakpoint($desk) {
+      @include span-columns(3, 26);
+    }
+    @include breakpoint($laptop) {
+      @include span-columns(3, 18);
+    }
+    @include breakpoint($tab) {
+      @include span-columns(3, 12);
+    }
+    padding-top: 23px;
+    position: relative;
+    .l-region--branding {
+      height: 100%;
+    }
+  }
+  .l-header-wrapp {
+    @include span-columns(29 omega, 32);
+    @include breakpoint($desk) {
+      @include span-columns(23 omega, 26);
+    }
+    @include breakpoint($laptop) {
+      @include span-columns(15 omega, 18);
+    }
+    @include breakpoint($tab) {
+      @include span-columns(9 omega, 12);
+    }
+    height: 100%;
+    position: relative;
+    .l-region--header {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+}
+
+/*------------------------------ L-PAGE ----------------------------*/
+.l-page {
+  .l-main {
+
+  }
+}
+.hFooter {
+  height: $footer + 10;
+  clear: both;
+}
+
+/*------------------------------ FOOTER ----------------------------*/
+.l-footer {
+  background: $footer_background;
+  .l-region--footer {
+    height: $footer;
+    overflow: hidden;
+    #block-menu-menu-footer-main {
+      @include span-columns(29, 32);
+      @include breakpoint($desk) {
+        @include span-columns(23, 26);
+      }
+      @include breakpoint($laptop) {
+        @include span-columns(15, 18);
+      }
+      @include breakpoint($tab) {
+        @include span-columns(9, 12);
+      }
+    }
+    #block-block-1 {
+      @include span-columns(3 omega, 32);
+      @include breakpoint($desk) {
+        @include span-columns(3 omega, 26);
+      }
+      @include breakpoint($laptop) {
+        @include span-columns(3 omega, 18);
+      }
+      @include breakpoint($tab) {
+        @include span-columns(3 omega, 12);
+      }
+      @include font-size(12);
+      height: 100%;
+      position: relative;
+      font-family: 'open-sans';
+      font-weight: 300;
+      &>div {
+        @include centre(y);
+        width: 100%;
+      }
+      p {
+        text-align: right;
+        margin: 0;
+        color: $color_nav;
+      }
+    }
+  }
+}
+
+/*------------------------------ MEDIA QUERIES ----------------------------*/
+@include breakpoint($desk) {
+  @include layout(26) {
+    .l-header, .l-main, .l-region--footer {
+      @include susy-grid-background;
+      @include container;
+    }
+  }
+}
+
+@include breakpoint($laptop) {
+  @include layout(18) {
+    .l-header, .l-main, .l-region--footer {
+      @include susy-grid-background;
+      @include container;
+    }
+  }
+}
+
+@include breakpoint($tab) {
+  @include layout(12) {
+    .l-header, .l-main, .l-region--footer {
+      @include susy-grid-background;
+      @include container;
+    }
+  }
+}

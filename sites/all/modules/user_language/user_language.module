@@ -1,0 +1,204 @@
+<?php
+
+define('BASEPATH', '/');
+
+/**
+ * @file
+ * Определение языка браузера и установка его по дефолту.
+ */
+
+/**
+ * Implements hook_help.
+ *
+ * Displays help and module information.
+ *
+ * @param path
+ *   Which path of the site we're using to display help
+ * @param arg
+ *   Array that holds the current path as returned from arg() function
+ */
+function user_language_help($path, $arg) {
+
+
+    switch ($path) {
+        case "admin/help#user_language":
+            return '<p>'. t("Default language") .'</p>';
+            break;
+    }
+}
+
+/**
+ * Реализация hook_boot().
+ */
+function user_language_boot() {
+    $_COOKIE['language'] = ''.user_language_get_user_language();
+}
+
+
+/**
+ * Определение языка браузера.
+ */
+function user_language_get_user_language() {
+
+    include_once DRUPAL_ROOT . '/sites/all/modules/user_language/lang_detect.php';
+    $curLang = new lang_detect();
+
+
+    $language_array = array();
+
+    $language_list = language_list($field = 'language');
+
+    foreach($language_list as $key => $val){
+        $language_array[$key] = explode(", ", variable_get('user_language_code_'.$val->language, $val->language));
+    }
+
+    return $curLang->getBestMatch(false, $language_array);
+}
+
+
+/**
+ * Url страници в соответствии с языком браузера.
+ */
+function user_language_url_current_page() {
+
+    global $language;
+
+    global $base_root;
+
+    if(variable_get('user_language_code_ask_block', false) || variable_get('user_language_code_redirect', false)){
+
+        $browser_language = user_language_get_user_language();
+
+        if($browser_language && !drupal_is_front_page()) {
+
+            if($browser_language != $language->language) {
+
+                $path = $_GET['q'];
+
+                $translate_node_url =  i18n_get_path_translations($path);
+
+                if(count($translate_node_url) > 0) {
+
+                    $source = $translate_node_url[$browser_language]['href'];
+
+                    $translate_alias = db_select('url_alias', 'u')
+                        ->fields('u', array('alias'))
+                        ->condition('u.source', $source, '=')
+                        ->execute()
+                        ->fetchField();
+
+                    if(variable_get('user_language_code_redirect', false) && !isset($_COOKIE['language_redirect'])) {
+
+                        setcookie('language_redirect', true);
+
+                        drupal_goto($base_root.'/'.$browser_language.'/'.$translate_alias);
+
+                    } else {
+
+                        $full_link = $base_root.'/'.$browser_language.'/'.$translate_alias;
+                        user_language_show_block($full_link);
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/**
+ * Всплывающий блок.
+ */
+function user_language_show_block($l) {
+
+    drupal_add_js(array('userLanguage' => array('link' => $l)), 'setting');
+
+}
+
+
+function user_language_preprocess_html(&$variables) {
+
+    user_language_url_current_page();
+
+}
+
+
+/**
+ * Реализуем hook_menu().
+ */
+function user_language_menu() {
+
+    $items = array();
+
+    $items['admin/config/regional/user_language'] = array(
+        'title' => 'Language user browser',
+        'description' => 'Configuration for User language module',
+        'page callback' => 'drupal_get_form',
+        'page arguments' => array('user_language_form'),
+        'access arguments' => array('access administration pages'),
+        'type' => MENU_NORMAL_ITEM,
+    );
+
+    return
+        $items;
+}
+
+
+/**
+ * Функция формы, вызываемая с помощью drupal_get_form()
+ * в user_language_menu().
+ */
+function user_language_form($form, &$form_state) {
+
+    $language_list = language_list($field = 'language');
+
+    foreach($language_list as $key => $val){
+        $form['user_language_code_'.$key] = array(
+            '#type' => 'textfield',
+            '#title' => t('Language code for '.$val->name),
+            '#default_value' => variable_get('user_language_code_'.$val->language, $val->language),
+            '#size' => 50,
+            '#maxlength' => 255,
+            '#description' => t('Language code, likes "en, ru, de"'),
+            '#required' => TRUE,
+        );
+    }
+    $form['user_language_code_ask_block'] = array(
+        '#type' => 'checkbox',
+        '#title' => t('Всплывающий блок.'),
+        '#description' => t('Если включено, пользователю будет предложено перейти на страницу в соответствии с языком браузера.'),
+        '#default_value' => variable_get('user_language_code_ask_block', false),
+    );
+    $form['user_language_code_redirect'] = array(
+        '#type' => 'checkbox',
+        '#title' => t('Редирект на переведенную страницу.'),
+        '#description' => t('Если включено, пользователь будет перенаправлена на страницу в соответствии с языком браузера.'),
+        '#default_value' => variable_get('user_language_code_redirect', false),
+    );
+
+    return
+        system_settings_form($form);
+}
+
+
+/**
+ * Реализация проверки формы Form API.
+ *
+ * @param $form
+ *   Структурированный массив, содержащий элементы и свойства формы.
+ * @param $form_state
+ *   Массив, который сохраняет информацию о текущем состоянии формы
+ *   во время выполнения.
+ */
+function user_language_form_validate($form, &$form_state){
+
+    $language_list = language_list($field = 'language');
+
+    foreach($language_list as $key => $val){
+        $l_value = $form_state['values']['user_language_code_'.$val->language];
+        if (preg_match('/(\d+)/s', $l_value) || preg_match("/[а-яё]/i", $l_value)){
+           form_set_error('user_language_code_'.$val->language, t('Поле может содержать только латинские буквы.'));
+        }
+    }
+}
+

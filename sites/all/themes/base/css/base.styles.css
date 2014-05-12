@@ -1,0 +1,466 @@
+@charset "UTF-8";
+/* No files to import found in abstractions/**\/* */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\/_lists\.scss}line{font-family:\000032}}
+ul li {
+  list-style: none !important;
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\/_media\.scss}line{font-family:\000031}}
+img, media {
+  max-width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\/_tabs\.scss}line{font-family:\000033}}
+ul.tabs--primary li a {
+  background: #fff;
+  color: #0069ff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\/_tabs\.scss}line{font-family:\000036}}
+  ul.tabs--primary li a:hover {
+    color: #0069ff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\/_tabs\.scss}line{font-family:\0000311}}
+ul.tabs--primary li.active a {
+  color: #0069ff; }
+
+/*----------- NAV ALL -------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\000033}}
+.block--locale-language .menu, .block--locale-language .block__content, .block--system-main-menu .menu, .block--system-main-menu .block__content, .block--menu-menu-footer-main .menu, .block--menu-menu-footer-main .block__content, .block--menu-menu-menu-fixed-left .menu, .block--menu-menu-menu-fixed-left .block__content, .block--superfish-1 .menu, .block--superfish-1 .block__content {
+  float: right;
+  margin: 0;
+  font-family: 'open-sans';
+  font-weight: 700; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\000039}}
+  .block--locale-language .menu li a, .block--locale-language .block__content li a, .block--system-main-menu .menu li a, .block--system-main-menu .block__content li a, .block--menu-menu-footer-main .menu li a, .block--menu-menu-footer-main .block__content li a, .block--menu-menu-menu-fixed-left .menu li a, .block--menu-menu-menu-fixed-left .block__content li a, .block--superfish-1 .menu li a, .block--superfish-1 .block__content li a {
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 14, 2px;
+    line-height: 14, 2/16rem;
+    display: block;
+    padding: 10px 5px;
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\0000314}}
+    .block--locale-language .menu li a:hover, .block--locale-language .menu li a.active, .block--locale-language .block__content li a:hover, .block--locale-language .block__content li a.active, .block--system-main-menu .menu li a:hover, .block--system-main-menu .menu li a.active, .block--system-main-menu .block__content li a:hover, .block--system-main-menu .block__content li a.active, .block--menu-menu-footer-main .menu li a:hover, .block--menu-menu-footer-main .menu li a.active, .block--menu-menu-footer-main .block__content li a:hover, .block--menu-menu-footer-main .block__content li a.active, .block--menu-menu-menu-fixed-left .menu li a:hover, .block--menu-menu-menu-fixed-left .menu li a.active, .block--menu-menu-menu-fixed-left .block__content li a:hover, .block--menu-menu-menu-fixed-left .block__content li a.active, .block--superfish-1 .menu li a:hover, .block--superfish-1 .menu li a.active, .block--superfish-1 .block__content li a:hover, .block--superfish-1 .block__content li a.active {
+      border-bottom: 3px solid #fff;
+      color: white;
+      padding-bottom: 7px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\0000320}}
+  .block--locale-language .menu li.last, .block--locale-language .block__content li.last, .block--system-main-menu .menu li.last, .block--system-main-menu .block__content li.last, .block--menu-menu-footer-main .menu li.last, .block--menu-menu-footer-main .block__content li.last, .block--menu-menu-menu-fixed-left .menu li.last, .block--menu-menu-menu-fixed-left .block__content li.last, .block--superfish-1 .menu li.last, .block--superfish-1 .block__content li.last {
+    margin-right: 0; }
+
+/*------ main -----*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\0000329}}
+.block--system-main-menu .menu li, .block--superfish-1 .menu li {
+  margin: 0 1.55rem; }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\0000329}}
+    .block--system-main-menu .menu li, .block--superfish-1 .menu li {
+      margin: 0 0.25rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\0000336}}
+  .block--system-main-menu .menu li ul, .block--superfish-1 .menu li ul {
+    width: 100%;
+    border-bottom: 1px solid #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\0000339}}
+    .block--system-main-menu .menu li ul li, .block--superfish-1 .menu li ul li {
+      float: left;
+      width: auto;
+      position: static !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\0000343}}
+      .block--system-main-menu .menu li ul li a, .block--superfish-1 .menu li ul li a {
+        color: white;
+        font-family: 'open-sans';
+        font-weight: 300;
+        margin-bottom: -1px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\0000348}}
+        .block--system-main-menu .menu li ul li a:hover, .block--system-main-menu .menu li ul li a.active, .block--superfish-1 .menu li ul li a:hover, .block--superfish-1 .menu li ul li a.active {
+          border-bottom: 1px solid;
+          border-color: rgba(0, 0, 0, 0.4);
+          padding: 10px 5px 9px;
+          color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\0000357}}
+  .block--system-main-menu .menu li.first, .block--superfish-1 .menu li.first {
+    margin-left: 0; }
+
+/*------ footer -----*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\0000364}}
+.block--menu-menu-footer-main {
+  position: relative;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\0000367}}
+  .block--menu-menu-footer-main .menu {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\0000370}}
+    .block--menu-menu-footer-main .menu li {
+      margin: 0 0.3125rem; }
+      @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\0000370}}
+        .block--menu-menu-footer-main .menu li {
+          margin: 0 0rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\0000375}}
+      .block--menu-menu-footer-main .menu li a {
+        font-size: 12px;
+        font-size: 0.75rem;
+        line-height: 12, 2px;
+        line-height: 12, 2/16rem;
+        padding: 5px 5px; }
+        @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\0000375}}
+          .block--menu-menu-footer-main .menu li a {
+            padding: 5px 4px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\0000381}}
+        .block--menu-menu-footer-main .menu li a:hover, .block--menu-menu-footer-main .menu li a.active {
+          border-bottom: 2px solid #fff;
+          color: white;
+          padding-bottom: 3px; }
+
+/*------ fixed left -----*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\0000391}}
+.block--menu-menu-menu-fixed-left {
+  background: url("../images/fixed_block_left.png") repeat-x top left;
+  position: fixed;
+  left: -130px;
+  top: 363px;
+  height: 46px;
+  width: 306px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\0000399}}
+  .block--menu-menu-menu-fixed-left .menu {
+    padding: 0;
+    padding-bottom: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\00003102}}
+    .block--menu-menu-menu-fixed-left .menu li {
+      margin: 0 28px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\00003104}}
+      .block--menu-menu-menu-fixed-left .menu li a {
+        font-family: 'open-sans';
+        font-weight: 400;
+        font-size: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\00003109}}
+      .block--menu-menu-menu-fixed-left .menu li.last {
+        margin: 0 28px; }
+
+/*-- Основные --*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\0000315}}
+html {
+  font-size: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\0000318}}
+html, body {
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\0000322}}
+body a {
+  color: white;
+  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\0000325}}
+  body a:hover, body a.active {
+    color: #a4a5b0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\0000330}}
+.l-page {
+  background: url("../images/bg.jpg") no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\0000336}}
+.l-page-content {
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\0000339}}
+.l-header {
+  *zoom: 1;
+  max-width: 1600px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 125px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.base\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+  .l-header:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\0000344}}
+.l-main {
+  *zoom: 1;
+  max-width: 1600px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding-bottom: 42px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.base\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+  .l-main:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\0000349}}
+.l-footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 32px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\0000355}}
+.l-region--footer {
+  *zoom: 1;
+  max-width: 1600px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: auto;
+  margin-right: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.base\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+  .l-region--footer:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/*------------------------------ HEADER ----------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\0000361}}
+.l-header .l-branding {
+  width: 8.92188%;
+  float: left;
+  margin-right: 0.5%;
+  padding-top: 23px;
+  position: relative; }
+  @media (min-width: 1025px) and (max-width: 1360px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\0000361}}
+    .l-header .l-branding {
+      width: 10.99345%;
+      float: left;
+      margin-right: 0.6161%; } }
+  @media (min-width: 768px) and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\0000361}}
+    .l-header .l-branding {
+      width: 15.92303%;
+      float: left;
+      margin-right: 0.89236%; } }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\0000361}}
+    .l-header .l-branding {
+      width: 23.9916%;
+      float: left;
+      margin-right: 1.34454%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\0000374}}
+  .l-header .l-branding .l-region--branding {
+    height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\0000378}}
+.l-header .l-header-wrapp {
+  width: 90.57813%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -8px;
+  height: 100%;
+  position: relative; }
+  @media (min-width: 1025px) and (max-width: 1360px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\0000378}}
+    .l-header .l-header-wrapp {
+      width: 88.39045%;
+      float: right;
+      margin-right: 0;
+      *margin-left: -8px; } }
+  @media (min-width: 768px) and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\0000378}}
+    .l-header .l-header-wrapp {
+      width: 83.18461%;
+      float: right;
+      margin-right: 0;
+      *margin-left: -8px; } }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\0000378}}
+    .l-header .l-header-wrapp {
+      width: 74.66387%;
+      float: right;
+      margin-right: 0;
+      *margin-left: -8px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\0000391}}
+  .l-header .l-header-wrapp .l-region--header {
+    position: absolute;
+    bottom: 0;
+    right: 0; }
+
+/*------------------------------ L-PAGE ----------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\00003105}}
+.hFooter {
+  height: 42px;
+  clear: both; }
+
+/*------------------------------ FOOTER ----------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\00003111}}
+.l-footer {
+  background: rgba(0, 0, 0, 0.4); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\00003113}}
+  .l-footer .l-region--footer {
+    height: 32px;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\00003116}}
+    .l-footer .l-region--footer #block-menu-menu-footer-main {
+      width: 90.57813%;
+      float: left;
+      margin-right: 0.5%; }
+      @media (min-width: 1025px) and (max-width: 1360px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\00003116}}
+        .l-footer .l-region--footer #block-menu-menu-footer-main {
+          width: 88.39045%;
+          float: left;
+          margin-right: 0.6161%; } }
+      @media (min-width: 768px) and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\00003116}}
+        .l-footer .l-region--footer #block-menu-menu-footer-main {
+          width: 83.18461%;
+          float: left;
+          margin-right: 0.89236%; } }
+      @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\00003116}}
+        .l-footer .l-region--footer #block-menu-menu-footer-main {
+          width: 74.66387%;
+          float: left;
+          margin-right: 1.34454%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\00003128}}
+    .l-footer .l-region--footer #block-block-1 {
+      width: 8.92188%;
+      float: right;
+      margin-right: 0;
+      *margin-left: -8px;
+      font-size: 12px;
+      font-size: 0.75rem;
+      line-height: 12, 2px;
+      line-height: 12, 2/16rem;
+      height: 100%;
+      position: relative;
+      font-family: 'open-sans';
+      font-weight: 300; }
+      @media (min-width: 1025px) and (max-width: 1360px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\00003128}}
+        .l-footer .l-region--footer #block-block-1 {
+          width: 10.99345%;
+          float: right;
+          margin-right: 0;
+          *margin-left: -8px; } }
+      @media (min-width: 768px) and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\00003128}}
+        .l-footer .l-region--footer #block-block-1 {
+          width: 15.92303%;
+          float: right;
+          margin-right: 0;
+          *margin-left: -8px; } }
+      @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\00003128}}
+        .l-footer .l-region--footer #block-block-1 {
+          width: 23.9916%;
+          float: right;
+          margin-right: 0;
+          *margin-left: -8px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\00003144}}
+      .l-footer .l-region--footer #block-block-1 > div {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\00003148}}
+      .l-footer .l-region--footer #block-block-1 p {
+        text-align: right;
+        margin: 0;
+        color: white; }
+
+/*------------------------------ MEDIA QUERIES ----------------------------*/
+@media (min-width: 1025px) and (max-width: 1360px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\00003160}}
+  .l-header, .l-main, .l-region--footer {
+    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(3.25375%, rgba(100, 100, 225, 0.25)), color-stop(3.25375%, rgba(0, 0, 0, 0)), color-stop(3.86985%, rgba(0, 0, 0, 0)), color-stop(3.86985%, rgba(100, 100, 225, 0.25)), color-stop(7.1236%, rgba(100, 100, 225, 0.25)), color-stop(7.1236%, rgba(0, 0, 0, 0)), color-stop(7.7397%, rgba(0, 0, 0, 0)), color-stop(7.7397%, rgba(100, 100, 225, 0.25)), color-stop(10.99345%, rgba(100, 100, 225, 0.25)), color-stop(10.99345%, rgba(0, 0, 0, 0)), color-stop(11.60955%, rgba(0, 0, 0, 0)), color-stop(11.60955%, rgba(100, 100, 225, 0.25)), color-stop(14.8633%, rgba(100, 100, 225, 0.25)), color-stop(14.8633%, rgba(0, 0, 0, 0)), color-stop(15.4794%, rgba(0, 0, 0, 0)), color-stop(15.4794%, rgba(100, 100, 225, 0.25)), color-stop(18.73315%, rgba(100, 100, 225, 0.25)), color-stop(18.73315%, rgba(0, 0, 0, 0)), color-stop(19.34925%, rgba(0, 0, 0, 0)), color-stop(19.34925%, rgba(100, 100, 225, 0.25)), color-stop(22.603%, rgba(100, 100, 225, 0.25)), color-stop(22.603%, rgba(0, 0, 0, 0)), color-stop(23.2191%, rgba(0, 0, 0, 0)), color-stop(23.2191%, rgba(100, 100, 225, 0.25)), color-stop(26.47285%, rgba(100, 100, 225, 0.25)), color-stop(26.47285%, rgba(0, 0, 0, 0)), color-stop(27.08895%, rgba(0, 0, 0, 0)), color-stop(27.08895%, rgba(100, 100, 225, 0.25)), color-stop(30.3427%, rgba(100, 100, 225, 0.25)), color-stop(30.3427%, rgba(0, 0, 0, 0)), color-stop(30.9588%, rgba(0, 0, 0, 0)), color-stop(30.9588%, rgba(100, 100, 225, 0.25)), color-stop(34.21255%, rgba(100, 100, 225, 0.25)), color-stop(34.21255%, rgba(0, 0, 0, 0)), color-stop(34.82865%, rgba(0, 0, 0, 0)), color-stop(34.82865%, rgba(100, 100, 225, 0.25)), color-stop(38.0824%, rgba(100, 100, 225, 0.25)), color-stop(38.0824%, rgba(0, 0, 0, 0)), color-stop(38.6985%, rgba(0, 0, 0, 0)), color-stop(38.6985%, rgba(100, 100, 225, 0.25)), color-stop(41.95225%, rgba(100, 100, 225, 0.25)), color-stop(41.95225%, rgba(0, 0, 0, 0)), color-stop(42.56835%, rgba(0, 0, 0, 0)), color-stop(42.56835%, rgba(100, 100, 225, 0.25)), color-stop(45.8221%, rgba(100, 100, 225, 0.25)), color-stop(45.8221%, rgba(0, 0, 0, 0)), color-stop(46.4382%, rgba(0, 0, 0, 0)), color-stop(46.4382%, rgba(100, 100, 225, 0.25)), color-stop(49.69195%, rgba(100, 100, 225, 0.25)), color-stop(49.69195%, rgba(0, 0, 0, 0)), color-stop(50.30805%, rgba(0, 0, 0, 0)), color-stop(50.30805%, rgba(100, 100, 225, 0.25)), color-stop(53.5618%, rgba(100, 100, 225, 0.25)), color-stop(53.5618%, rgba(0, 0, 0, 0)), color-stop(54.1779%, rgba(0, 0, 0, 0)), color-stop(54.1779%, rgba(100, 100, 225, 0.25)), color-stop(57.43165%, rgba(100, 100, 225, 0.25)), color-stop(57.43165%, rgba(0, 0, 0, 0)), color-stop(58.04775%, rgba(0, 0, 0, 0)), color-stop(58.04775%, rgba(100, 100, 225, 0.25)), color-stop(61.3015%, rgba(100, 100, 225, 0.25)), color-stop(61.3015%, rgba(0, 0, 0, 0)), color-stop(61.9176%, rgba(0, 0, 0, 0)), color-stop(61.9176%, rgba(100, 100, 225, 0.25)), color-stop(65.17135%, rgba(100, 100, 225, 0.25)), color-stop(65.17135%, rgba(0, 0, 0, 0)), color-stop(65.78745%, rgba(0, 0, 0, 0)), color-stop(65.78745%, rgba(100, 100, 225, 0.25)), color-stop(69.0412%, rgba(100, 100, 225, 0.25)), color-stop(69.0412%, rgba(0, 0, 0, 0)), color-stop(69.6573%, rgba(0, 0, 0, 0)), color-stop(69.6573%, rgba(100, 100, 225, 0.25)), color-stop(72.91105%, rgba(100, 100, 225, 0.25)), color-stop(72.91105%, rgba(0, 0, 0, 0)), color-stop(73.52715%, rgba(0, 0, 0, 0)), color-stop(73.52715%, rgba(100, 100, 225, 0.25)), color-stop(76.7809%, rgba(100, 100, 225, 0.25)), color-stop(76.7809%, rgba(0, 0, 0, 0)), color-stop(77.397%, rgba(0, 0, 0, 0)), color-stop(77.397%, rgba(100, 100, 225, 0.25)), color-stop(80.65075%, rgba(100, 100, 225, 0.25)), color-stop(80.65075%, rgba(0, 0, 0, 0)), color-stop(81.26685%, rgba(0, 0, 0, 0)), color-stop(81.26685%, rgba(100, 100, 225, 0.25)), color-stop(84.5206%, rgba(100, 100, 225, 0.25)), color-stop(84.5206%, rgba(0, 0, 0, 0)), color-stop(85.1367%, rgba(0, 0, 0, 0)), color-stop(85.1367%, rgba(100, 100, 225, 0.25)), color-stop(88.39045%, rgba(100, 100, 225, 0.25)), color-stop(88.39045%, rgba(0, 0, 0, 0)), color-stop(89.00655%, rgba(0, 0, 0, 0)), color-stop(89.00655%, rgba(100, 100, 225, 0.25)), color-stop(92.2603%, rgba(100, 100, 225, 0.25)), color-stop(92.2603%, rgba(0, 0, 0, 0)), color-stop(92.8764%, rgba(0, 0, 0, 0)), color-stop(92.8764%, rgba(100, 100, 225, 0.25)), color-stop(96.13015%, rgba(100, 100, 225, 0.25)), color-stop(96.13015%, rgba(0, 0, 0, 0)), color-stop(96.74625%, rgba(0, 0, 0, 0)), color-stop(96.74625%, rgba(100, 100, 225, 0.25)), color-stop(100.0%, rgba(100, 100, 225, 0.25)), color-stop(100.0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 3.25375%, rgba(0, 0, 0, 0) 3.25375%, rgba(0, 0, 0, 0) 3.86985%, rgba(100, 100, 225, 0.25) 3.86985%, rgba(100, 100, 225, 0.25) 7.1236%, rgba(0, 0, 0, 0) 7.1236%, rgba(0, 0, 0, 0) 7.7397%, rgba(100, 100, 225, 0.25) 7.7397%, rgba(100, 100, 225, 0.25) 10.99345%, rgba(0, 0, 0, 0) 10.99345%, rgba(0, 0, 0, 0) 11.60955%, rgba(100, 100, 225, 0.25) 11.60955%, rgba(100, 100, 225, 0.25) 14.8633%, rgba(0, 0, 0, 0) 14.8633%, rgba(0, 0, 0, 0) 15.4794%, rgba(100, 100, 225, 0.25) 15.4794%, rgba(100, 100, 225, 0.25) 18.73315%, rgba(0, 0, 0, 0) 18.73315%, rgba(0, 0, 0, 0) 19.34925%, rgba(100, 100, 225, 0.25) 19.34925%, rgba(100, 100, 225, 0.25) 22.603%, rgba(0, 0, 0, 0) 22.603%, rgba(0, 0, 0, 0) 23.2191%, rgba(100, 100, 225, 0.25) 23.2191%, rgba(100, 100, 225, 0.25) 26.47285%, rgba(0, 0, 0, 0) 26.47285%, rgba(0, 0, 0, 0) 27.08895%, rgba(100, 100, 225, 0.25) 27.08895%, rgba(100, 100, 225, 0.25) 30.3427%, rgba(0, 0, 0, 0) 30.3427%, rgba(0, 0, 0, 0) 30.9588%, rgba(100, 100, 225, 0.25) 30.9588%, rgba(100, 100, 225, 0.25) 34.21255%, rgba(0, 0, 0, 0) 34.21255%, rgba(0, 0, 0, 0) 34.82865%, rgba(100, 100, 225, 0.25) 34.82865%, rgba(100, 100, 225, 0.25) 38.0824%, rgba(0, 0, 0, 0) 38.0824%, rgba(0, 0, 0, 0) 38.6985%, rgba(100, 100, 225, 0.25) 38.6985%, rgba(100, 100, 225, 0.25) 41.95225%, rgba(0, 0, 0, 0) 41.95225%, rgba(0, 0, 0, 0) 42.56835%, rgba(100, 100, 225, 0.25) 42.56835%, rgba(100, 100, 225, 0.25) 45.8221%, rgba(0, 0, 0, 0) 45.8221%, rgba(0, 0, 0, 0) 46.4382%, rgba(100, 100, 225, 0.25) 46.4382%, rgba(100, 100, 225, 0.25) 49.69195%, rgba(0, 0, 0, 0) 49.69195%, rgba(0, 0, 0, 0) 50.30805%, rgba(100, 100, 225, 0.25) 50.30805%, rgba(100, 100, 225, 0.25) 53.5618%, rgba(0, 0, 0, 0) 53.5618%, rgba(0, 0, 0, 0) 54.1779%, rgba(100, 100, 225, 0.25) 54.1779%, rgba(100, 100, 225, 0.25) 57.43165%, rgba(0, 0, 0, 0) 57.43165%, rgba(0, 0, 0, 0) 58.04775%, rgba(100, 100, 225, 0.25) 58.04775%, rgba(100, 100, 225, 0.25) 61.3015%, rgba(0, 0, 0, 0) 61.3015%, rgba(0, 0, 0, 0) 61.9176%, rgba(100, 100, 225, 0.25) 61.9176%, rgba(100, 100, 225, 0.25) 65.17135%, rgba(0, 0, 0, 0) 65.17135%, rgba(0, 0, 0, 0) 65.78745%, rgba(100, 100, 225, 0.25) 65.78745%, rgba(100, 100, 225, 0.25) 69.0412%, rgba(0, 0, 0, 0) 69.0412%, rgba(0, 0, 0, 0) 69.6573%, rgba(100, 100, 225, 0.25) 69.6573%, rgba(100, 100, 225, 0.25) 72.91105%, rgba(0, 0, 0, 0) 72.91105%, rgba(0, 0, 0, 0) 73.52715%, rgba(100, 100, 225, 0.25) 73.52715%, rgba(100, 100, 225, 0.25) 76.7809%, rgba(0, 0, 0, 0) 76.7809%, rgba(0, 0, 0, 0) 77.397%, rgba(100, 100, 225, 0.25) 77.397%, rgba(100, 100, 225, 0.25) 80.65075%, rgba(0, 0, 0, 0) 80.65075%, rgba(0, 0, 0, 0) 81.26685%, rgba(100, 100, 225, 0.25) 81.26685%, rgba(100, 100, 225, 0.25) 84.5206%, rgba(0, 0, 0, 0) 84.5206%, rgba(0, 0, 0, 0) 85.1367%, rgba(100, 100, 225, 0.25) 85.1367%, rgba(100, 100, 225, 0.25) 88.39045%, rgba(0, 0, 0, 0) 88.39045%, rgba(0, 0, 0, 0) 89.00655%, rgba(100, 100, 225, 0.25) 89.00655%, rgba(100, 100, 225, 0.25) 92.2603%, rgba(0, 0, 0, 0) 92.2603%, rgba(0, 0, 0, 0) 92.8764%, rgba(100, 100, 225, 0.25) 92.8764%, rgba(100, 100, 225, 0.25) 96.13015%, rgba(0, 0, 0, 0) 96.13015%, rgba(0, 0, 0, 0) 96.74625%, rgba(100, 100, 225, 0.25) 96.74625%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 3.25375%, rgba(0, 0, 0, 0) 3.25375%, rgba(0, 0, 0, 0) 3.86985%, rgba(100, 100, 225, 0.25) 3.86985%, rgba(100, 100, 225, 0.25) 7.1236%, rgba(0, 0, 0, 0) 7.1236%, rgba(0, 0, 0, 0) 7.7397%, rgba(100, 100, 225, 0.25) 7.7397%, rgba(100, 100, 225, 0.25) 10.99345%, rgba(0, 0, 0, 0) 10.99345%, rgba(0, 0, 0, 0) 11.60955%, rgba(100, 100, 225, 0.25) 11.60955%, rgba(100, 100, 225, 0.25) 14.8633%, rgba(0, 0, 0, 0) 14.8633%, rgba(0, 0, 0, 0) 15.4794%, rgba(100, 100, 225, 0.25) 15.4794%, rgba(100, 100, 225, 0.25) 18.73315%, rgba(0, 0, 0, 0) 18.73315%, rgba(0, 0, 0, 0) 19.34925%, rgba(100, 100, 225, 0.25) 19.34925%, rgba(100, 100, 225, 0.25) 22.603%, rgba(0, 0, 0, 0) 22.603%, rgba(0, 0, 0, 0) 23.2191%, rgba(100, 100, 225, 0.25) 23.2191%, rgba(100, 100, 225, 0.25) 26.47285%, rgba(0, 0, 0, 0) 26.47285%, rgba(0, 0, 0, 0) 27.08895%, rgba(100, 100, 225, 0.25) 27.08895%, rgba(100, 100, 225, 0.25) 30.3427%, rgba(0, 0, 0, 0) 30.3427%, rgba(0, 0, 0, 0) 30.9588%, rgba(100, 100, 225, 0.25) 30.9588%, rgba(100, 100, 225, 0.25) 34.21255%, rgba(0, 0, 0, 0) 34.21255%, rgba(0, 0, 0, 0) 34.82865%, rgba(100, 100, 225, 0.25) 34.82865%, rgba(100, 100, 225, 0.25) 38.0824%, rgba(0, 0, 0, 0) 38.0824%, rgba(0, 0, 0, 0) 38.6985%, rgba(100, 100, 225, 0.25) 38.6985%, rgba(100, 100, 225, 0.25) 41.95225%, rgba(0, 0, 0, 0) 41.95225%, rgba(0, 0, 0, 0) 42.56835%, rgba(100, 100, 225, 0.25) 42.56835%, rgba(100, 100, 225, 0.25) 45.8221%, rgba(0, 0, 0, 0) 45.8221%, rgba(0, 0, 0, 0) 46.4382%, rgba(100, 100, 225, 0.25) 46.4382%, rgba(100, 100, 225, 0.25) 49.69195%, rgba(0, 0, 0, 0) 49.69195%, rgba(0, 0, 0, 0) 50.30805%, rgba(100, 100, 225, 0.25) 50.30805%, rgba(100, 100, 225, 0.25) 53.5618%, rgba(0, 0, 0, 0) 53.5618%, rgba(0, 0, 0, 0) 54.1779%, rgba(100, 100, 225, 0.25) 54.1779%, rgba(100, 100, 225, 0.25) 57.43165%, rgba(0, 0, 0, 0) 57.43165%, rgba(0, 0, 0, 0) 58.04775%, rgba(100, 100, 225, 0.25) 58.04775%, rgba(100, 100, 225, 0.25) 61.3015%, rgba(0, 0, 0, 0) 61.3015%, rgba(0, 0, 0, 0) 61.9176%, rgba(100, 100, 225, 0.25) 61.9176%, rgba(100, 100, 225, 0.25) 65.17135%, rgba(0, 0, 0, 0) 65.17135%, rgba(0, 0, 0, 0) 65.78745%, rgba(100, 100, 225, 0.25) 65.78745%, rgba(100, 100, 225, 0.25) 69.0412%, rgba(0, 0, 0, 0) 69.0412%, rgba(0, 0, 0, 0) 69.6573%, rgba(100, 100, 225, 0.25) 69.6573%, rgba(100, 100, 225, 0.25) 72.91105%, rgba(0, 0, 0, 0) 72.91105%, rgba(0, 0, 0, 0) 73.52715%, rgba(100, 100, 225, 0.25) 73.52715%, rgba(100, 100, 225, 0.25) 76.7809%, rgba(0, 0, 0, 0) 76.7809%, rgba(0, 0, 0, 0) 77.397%, rgba(100, 100, 225, 0.25) 77.397%, rgba(100, 100, 225, 0.25) 80.65075%, rgba(0, 0, 0, 0) 80.65075%, rgba(0, 0, 0, 0) 81.26685%, rgba(100, 100, 225, 0.25) 81.26685%, rgba(100, 100, 225, 0.25) 84.5206%, rgba(0, 0, 0, 0) 84.5206%, rgba(0, 0, 0, 0) 85.1367%, rgba(100, 100, 225, 0.25) 85.1367%, rgba(100, 100, 225, 0.25) 88.39045%, rgba(0, 0, 0, 0) 88.39045%, rgba(0, 0, 0, 0) 89.00655%, rgba(100, 100, 225, 0.25) 89.00655%, rgba(100, 100, 225, 0.25) 92.2603%, rgba(0, 0, 0, 0) 92.2603%, rgba(0, 0, 0, 0) 92.8764%, rgba(100, 100, 225, 0.25) 92.8764%, rgba(100, 100, 225, 0.25) 96.13015%, rgba(0, 0, 0, 0) 96.13015%, rgba(0, 0, 0, 0) 96.74625%, rgba(100, 100, 225, 0.25) 96.74625%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 3.25375%, rgba(0, 0, 0, 0) 3.25375%, rgba(0, 0, 0, 0) 3.86985%, rgba(100, 100, 225, 0.25) 3.86985%, rgba(100, 100, 225, 0.25) 7.1236%, rgba(0, 0, 0, 0) 7.1236%, rgba(0, 0, 0, 0) 7.7397%, rgba(100, 100, 225, 0.25) 7.7397%, rgba(100, 100, 225, 0.25) 10.99345%, rgba(0, 0, 0, 0) 10.99345%, rgba(0, 0, 0, 0) 11.60955%, rgba(100, 100, 225, 0.25) 11.60955%, rgba(100, 100, 225, 0.25) 14.8633%, rgba(0, 0, 0, 0) 14.8633%, rgba(0, 0, 0, 0) 15.4794%, rgba(100, 100, 225, 0.25) 15.4794%, rgba(100, 100, 225, 0.25) 18.73315%, rgba(0, 0, 0, 0) 18.73315%, rgba(0, 0, 0, 0) 19.34925%, rgba(100, 100, 225, 0.25) 19.34925%, rgba(100, 100, 225, 0.25) 22.603%, rgba(0, 0, 0, 0) 22.603%, rgba(0, 0, 0, 0) 23.2191%, rgba(100, 100, 225, 0.25) 23.2191%, rgba(100, 100, 225, 0.25) 26.47285%, rgba(0, 0, 0, 0) 26.47285%, rgba(0, 0, 0, 0) 27.08895%, rgba(100, 100, 225, 0.25) 27.08895%, rgba(100, 100, 225, 0.25) 30.3427%, rgba(0, 0, 0, 0) 30.3427%, rgba(0, 0, 0, 0) 30.9588%, rgba(100, 100, 225, 0.25) 30.9588%, rgba(100, 100, 225, 0.25) 34.21255%, rgba(0, 0, 0, 0) 34.21255%, rgba(0, 0, 0, 0) 34.82865%, rgba(100, 100, 225, 0.25) 34.82865%, rgba(100, 100, 225, 0.25) 38.0824%, rgba(0, 0, 0, 0) 38.0824%, rgba(0, 0, 0, 0) 38.6985%, rgba(100, 100, 225, 0.25) 38.6985%, rgba(100, 100, 225, 0.25) 41.95225%, rgba(0, 0, 0, 0) 41.95225%, rgba(0, 0, 0, 0) 42.56835%, rgba(100, 100, 225, 0.25) 42.56835%, rgba(100, 100, 225, 0.25) 45.8221%, rgba(0, 0, 0, 0) 45.8221%, rgba(0, 0, 0, 0) 46.4382%, rgba(100, 100, 225, 0.25) 46.4382%, rgba(100, 100, 225, 0.25) 49.69195%, rgba(0, 0, 0, 0) 49.69195%, rgba(0, 0, 0, 0) 50.30805%, rgba(100, 100, 225, 0.25) 50.30805%, rgba(100, 100, 225, 0.25) 53.5618%, rgba(0, 0, 0, 0) 53.5618%, rgba(0, 0, 0, 0) 54.1779%, rgba(100, 100, 225, 0.25) 54.1779%, rgba(100, 100, 225, 0.25) 57.43165%, rgba(0, 0, 0, 0) 57.43165%, rgba(0, 0, 0, 0) 58.04775%, rgba(100, 100, 225, 0.25) 58.04775%, rgba(100, 100, 225, 0.25) 61.3015%, rgba(0, 0, 0, 0) 61.3015%, rgba(0, 0, 0, 0) 61.9176%, rgba(100, 100, 225, 0.25) 61.9176%, rgba(100, 100, 225, 0.25) 65.17135%, rgba(0, 0, 0, 0) 65.17135%, rgba(0, 0, 0, 0) 65.78745%, rgba(100, 100, 225, 0.25) 65.78745%, rgba(100, 100, 225, 0.25) 69.0412%, rgba(0, 0, 0, 0) 69.0412%, rgba(0, 0, 0, 0) 69.6573%, rgba(100, 100, 225, 0.25) 69.6573%, rgba(100, 100, 225, 0.25) 72.91105%, rgba(0, 0, 0, 0) 72.91105%, rgba(0, 0, 0, 0) 73.52715%, rgba(100, 100, 225, 0.25) 73.52715%, rgba(100, 100, 225, 0.25) 76.7809%, rgba(0, 0, 0, 0) 76.7809%, rgba(0, 0, 0, 0) 77.397%, rgba(100, 100, 225, 0.25) 77.397%, rgba(100, 100, 225, 0.25) 80.65075%, rgba(0, 0, 0, 0) 80.65075%, rgba(0, 0, 0, 0) 81.26685%, rgba(100, 100, 225, 0.25) 81.26685%, rgba(100, 100, 225, 0.25) 84.5206%, rgba(0, 0, 0, 0) 84.5206%, rgba(0, 0, 0, 0) 85.1367%, rgba(100, 100, 225, 0.25) 85.1367%, rgba(100, 100, 225, 0.25) 88.39045%, rgba(0, 0, 0, 0) 88.39045%, rgba(0, 0, 0, 0) 89.00655%, rgba(100, 100, 225, 0.25) 89.00655%, rgba(100, 100, 225, 0.25) 92.2603%, rgba(0, 0, 0, 0) 92.2603%, rgba(0, 0, 0, 0) 92.8764%, rgba(100, 100, 225, 0.25) 92.8764%, rgba(100, 100, 225, 0.25) 96.13015%, rgba(0, 0, 0, 0) 96.13015%, rgba(0, 0, 0, 0) 96.74625%, rgba(100, 100, 225, 0.25) 96.74625%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
+    background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 3.25375%, rgba(0, 0, 0, 0) 3.25375%, rgba(0, 0, 0, 0) 3.86985%, rgba(100, 100, 225, 0.25) 3.86985%, rgba(100, 100, 225, 0.25) 7.1236%, rgba(0, 0, 0, 0) 7.1236%, rgba(0, 0, 0, 0) 7.7397%, rgba(100, 100, 225, 0.25) 7.7397%, rgba(100, 100, 225, 0.25) 10.99345%, rgba(0, 0, 0, 0) 10.99345%, rgba(0, 0, 0, 0) 11.60955%, rgba(100, 100, 225, 0.25) 11.60955%, rgba(100, 100, 225, 0.25) 14.8633%, rgba(0, 0, 0, 0) 14.8633%, rgba(0, 0, 0, 0) 15.4794%, rgba(100, 100, 225, 0.25) 15.4794%, rgba(100, 100, 225, 0.25) 18.73315%, rgba(0, 0, 0, 0) 18.73315%, rgba(0, 0, 0, 0) 19.34925%, rgba(100, 100, 225, 0.25) 19.34925%, rgba(100, 100, 225, 0.25) 22.603%, rgba(0, 0, 0, 0) 22.603%, rgba(0, 0, 0, 0) 23.2191%, rgba(100, 100, 225, 0.25) 23.2191%, rgba(100, 100, 225, 0.25) 26.47285%, rgba(0, 0, 0, 0) 26.47285%, rgba(0, 0, 0, 0) 27.08895%, rgba(100, 100, 225, 0.25) 27.08895%, rgba(100, 100, 225, 0.25) 30.3427%, rgba(0, 0, 0, 0) 30.3427%, rgba(0, 0, 0, 0) 30.9588%, rgba(100, 100, 225, 0.25) 30.9588%, rgba(100, 100, 225, 0.25) 34.21255%, rgba(0, 0, 0, 0) 34.21255%, rgba(0, 0, 0, 0) 34.82865%, rgba(100, 100, 225, 0.25) 34.82865%, rgba(100, 100, 225, 0.25) 38.0824%, rgba(0, 0, 0, 0) 38.0824%, rgba(0, 0, 0, 0) 38.6985%, rgba(100, 100, 225, 0.25) 38.6985%, rgba(100, 100, 225, 0.25) 41.95225%, rgba(0, 0, 0, 0) 41.95225%, rgba(0, 0, 0, 0) 42.56835%, rgba(100, 100, 225, 0.25) 42.56835%, rgba(100, 100, 225, 0.25) 45.8221%, rgba(0, 0, 0, 0) 45.8221%, rgba(0, 0, 0, 0) 46.4382%, rgba(100, 100, 225, 0.25) 46.4382%, rgba(100, 100, 225, 0.25) 49.69195%, rgba(0, 0, 0, 0) 49.69195%, rgba(0, 0, 0, 0) 50.30805%, rgba(100, 100, 225, 0.25) 50.30805%, rgba(100, 100, 225, 0.25) 53.5618%, rgba(0, 0, 0, 0) 53.5618%, rgba(0, 0, 0, 0) 54.1779%, rgba(100, 100, 225, 0.25) 54.1779%, rgba(100, 100, 225, 0.25) 57.43165%, rgba(0, 0, 0, 0) 57.43165%, rgba(0, 0, 0, 0) 58.04775%, rgba(100, 100, 225, 0.25) 58.04775%, rgba(100, 100, 225, 0.25) 61.3015%, rgba(0, 0, 0, 0) 61.3015%, rgba(0, 0, 0, 0) 61.9176%, rgba(100, 100, 225, 0.25) 61.9176%, rgba(100, 100, 225, 0.25) 65.17135%, rgba(0, 0, 0, 0) 65.17135%, rgba(0, 0, 0, 0) 65.78745%, rgba(100, 100, 225, 0.25) 65.78745%, rgba(100, 100, 225, 0.25) 69.0412%, rgba(0, 0, 0, 0) 69.0412%, rgba(0, 0, 0, 0) 69.6573%, rgba(100, 100, 225, 0.25) 69.6573%, rgba(100, 100, 225, 0.25) 72.91105%, rgba(0, 0, 0, 0) 72.91105%, rgba(0, 0, 0, 0) 73.52715%, rgba(100, 100, 225, 0.25) 73.52715%, rgba(100, 100, 225, 0.25) 76.7809%, rgba(0, 0, 0, 0) 76.7809%, rgba(0, 0, 0, 0) 77.397%, rgba(100, 100, 225, 0.25) 77.397%, rgba(100, 100, 225, 0.25) 80.65075%, rgba(0, 0, 0, 0) 80.65075%, rgba(0, 0, 0, 0) 81.26685%, rgba(100, 100, 225, 0.25) 81.26685%, rgba(100, 100, 225, 0.25) 84.5206%, rgba(0, 0, 0, 0) 84.5206%, rgba(0, 0, 0, 0) 85.1367%, rgba(100, 100, 225, 0.25) 85.1367%, rgba(100, 100, 225, 0.25) 88.39045%, rgba(0, 0, 0, 0) 88.39045%, rgba(0, 0, 0, 0) 89.00655%, rgba(100, 100, 225, 0.25) 89.00655%, rgba(100, 100, 225, 0.25) 92.2603%, rgba(0, 0, 0, 0) 92.2603%, rgba(0, 0, 0, 0) 92.8764%, rgba(100, 100, 225, 0.25) 92.8764%, rgba(100, 100, 225, 0.25) 96.13015%, rgba(0, 0, 0, 0) 96.13015%, rgba(0, 0, 0, 0) 96.74625%, rgba(100, 100, 225, 0.25) 96.74625%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
+    background-position: left top;
+    -webkit-background-origin: content;
+    -moz-background-origin: content;
+    -ms-background-origin: content-box;
+    -o-background-origin: content-box;
+    background-origin: content-box;
+    -webkit-background-clip: content-box;
+    -moz-background-clip: content-box;
+    background-clip: content-box;
+    *zoom: 1;
+    max-width: 1298.5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: auto;
+    margin-right: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.base\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+    .l-header:after, .l-main:after, .l-region--footer:after {
+      content: "";
+      display: table;
+      clear: both; } }
+@media (min-width: 768px) and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\00003169}}
+  .l-header, .l-main, .l-region--footer {
+    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(4.71277%, rgba(100, 100, 225, 0.25)), color-stop(4.71277%, rgba(0, 0, 0, 0)), color-stop(5.60513%, rgba(0, 0, 0, 0)), color-stop(5.60513%, rgba(100, 100, 225, 0.25)), color-stop(10.3179%, rgba(100, 100, 225, 0.25)), color-stop(10.3179%, rgba(0, 0, 0, 0)), color-stop(11.21026%, rgba(0, 0, 0, 0)), color-stop(11.21026%, rgba(100, 100, 225, 0.25)), color-stop(15.92303%, rgba(100, 100, 225, 0.25)), color-stop(15.92303%, rgba(0, 0, 0, 0)), color-stop(16.81539%, rgba(0, 0, 0, 0)), color-stop(16.81539%, rgba(100, 100, 225, 0.25)), color-stop(21.52817%, rgba(100, 100, 225, 0.25)), color-stop(21.52817%, rgba(0, 0, 0, 0)), color-stop(22.42052%, rgba(0, 0, 0, 0)), color-stop(22.42052%, rgba(100, 100, 225, 0.25)), color-stop(27.1333%, rgba(100, 100, 225, 0.25)), color-stop(27.1333%, rgba(0, 0, 0, 0)), color-stop(28.02566%, rgba(0, 0, 0, 0)), color-stop(28.02566%, rgba(100, 100, 225, 0.25)), color-stop(32.73843%, rgba(100, 100, 225, 0.25)), color-stop(32.73843%, rgba(0, 0, 0, 0)), color-stop(33.63079%, rgba(0, 0, 0, 0)), color-stop(33.63079%, rgba(100, 100, 225, 0.25)), color-stop(38.34356%, rgba(100, 100, 225, 0.25)), color-stop(38.34356%, rgba(0, 0, 0, 0)), color-stop(39.23592%, rgba(0, 0, 0, 0)), color-stop(39.23592%, rgba(100, 100, 225, 0.25)), color-stop(43.94869%, rgba(100, 100, 225, 0.25)), color-stop(43.94869%, rgba(0, 0, 0, 0)), color-stop(44.84105%, rgba(0, 0, 0, 0)), color-stop(44.84105%, rgba(100, 100, 225, 0.25)), color-stop(49.55382%, rgba(100, 100, 225, 0.25)), color-stop(49.55382%, rgba(0, 0, 0, 0)), color-stop(50.44618%, rgba(0, 0, 0, 0)), color-stop(50.44618%, rgba(100, 100, 225, 0.25)), color-stop(55.15895%, rgba(100, 100, 225, 0.25)), color-stop(55.15895%, rgba(0, 0, 0, 0)), color-stop(56.05131%, rgba(0, 0, 0, 0)), color-stop(56.05131%, rgba(100, 100, 225, 0.25)), color-stop(60.76408%, rgba(100, 100, 225, 0.25)), color-stop(60.76408%, rgba(0, 0, 0, 0)), color-stop(61.65644%, rgba(0, 0, 0, 0)), color-stop(61.65644%, rgba(100, 100, 225, 0.25)), color-stop(66.36921%, rgba(100, 100, 225, 0.25)), color-stop(66.36921%, rgba(0, 0, 0, 0)), color-stop(67.26157%, rgba(0, 0, 0, 0)), color-stop(67.26157%, rgba(100, 100, 225, 0.25)), color-stop(71.97434%, rgba(100, 100, 225, 0.25)), color-stop(71.97434%, rgba(0, 0, 0, 0)), color-stop(72.8667%, rgba(0, 0, 0, 0)), color-stop(72.8667%, rgba(100, 100, 225, 0.25)), color-stop(77.57948%, rgba(100, 100, 225, 0.25)), color-stop(77.57948%, rgba(0, 0, 0, 0)), color-stop(78.47183%, rgba(0, 0, 0, 0)), color-stop(78.47183%, rgba(100, 100, 225, 0.25)), color-stop(83.18461%, rgba(100, 100, 225, 0.25)), color-stop(83.18461%, rgba(0, 0, 0, 0)), color-stop(84.07697%, rgba(0, 0, 0, 0)), color-stop(84.07697%, rgba(100, 100, 225, 0.25)), color-stop(88.78974%, rgba(100, 100, 225, 0.25)), color-stop(88.78974%, rgba(0, 0, 0, 0)), color-stop(89.6821%, rgba(0, 0, 0, 0)), color-stop(89.6821%, rgba(100, 100, 225, 0.25)), color-stop(94.39487%, rgba(100, 100, 225, 0.25)), color-stop(94.39487%, rgba(0, 0, 0, 0)), color-stop(95.28723%, rgba(0, 0, 0, 0)), color-stop(95.28723%, rgba(100, 100, 225, 0.25)), color-stop(100.0%, rgba(100, 100, 225, 0.25)), color-stop(100.0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 4.71277%, rgba(0, 0, 0, 0) 4.71277%, rgba(0, 0, 0, 0) 5.60513%, rgba(100, 100, 225, 0.25) 5.60513%, rgba(100, 100, 225, 0.25) 10.3179%, rgba(0, 0, 0, 0) 10.3179%, rgba(0, 0, 0, 0) 11.21026%, rgba(100, 100, 225, 0.25) 11.21026%, rgba(100, 100, 225, 0.25) 15.92303%, rgba(0, 0, 0, 0) 15.92303%, rgba(0, 0, 0, 0) 16.81539%, rgba(100, 100, 225, 0.25) 16.81539%, rgba(100, 100, 225, 0.25) 21.52817%, rgba(0, 0, 0, 0) 21.52817%, rgba(0, 0, 0, 0) 22.42052%, rgba(100, 100, 225, 0.25) 22.42052%, rgba(100, 100, 225, 0.25) 27.1333%, rgba(0, 0, 0, 0) 27.1333%, rgba(0, 0, 0, 0) 28.02566%, rgba(100, 100, 225, 0.25) 28.02566%, rgba(100, 100, 225, 0.25) 32.73843%, rgba(0, 0, 0, 0) 32.73843%, rgba(0, 0, 0, 0) 33.63079%, rgba(100, 100, 225, 0.25) 33.63079%, rgba(100, 100, 225, 0.25) 38.34356%, rgba(0, 0, 0, 0) 38.34356%, rgba(0, 0, 0, 0) 39.23592%, rgba(100, 100, 225, 0.25) 39.23592%, rgba(100, 100, 225, 0.25) 43.94869%, rgba(0, 0, 0, 0) 43.94869%, rgba(0, 0, 0, 0) 44.84105%, rgba(100, 100, 225, 0.25) 44.84105%, rgba(100, 100, 225, 0.25) 49.55382%, rgba(0, 0, 0, 0) 49.55382%, rgba(0, 0, 0, 0) 50.44618%, rgba(100, 100, 225, 0.25) 50.44618%, rgba(100, 100, 225, 0.25) 55.15895%, rgba(0, 0, 0, 0) 55.15895%, rgba(0, 0, 0, 0) 56.05131%, rgba(100, 100, 225, 0.25) 56.05131%, rgba(100, 100, 225, 0.25) 60.76408%, rgba(0, 0, 0, 0) 60.76408%, rgba(0, 0, 0, 0) 61.65644%, rgba(100, 100, 225, 0.25) 61.65644%, rgba(100, 100, 225, 0.25) 66.36921%, rgba(0, 0, 0, 0) 66.36921%, rgba(0, 0, 0, 0) 67.26157%, rgba(100, 100, 225, 0.25) 67.26157%, rgba(100, 100, 225, 0.25) 71.97434%, rgba(0, 0, 0, 0) 71.97434%, rgba(0, 0, 0, 0) 72.8667%, rgba(100, 100, 225, 0.25) 72.8667%, rgba(100, 100, 225, 0.25) 77.57948%, rgba(0, 0, 0, 0) 77.57948%, rgba(0, 0, 0, 0) 78.47183%, rgba(100, 100, 225, 0.25) 78.47183%, rgba(100, 100, 225, 0.25) 83.18461%, rgba(0, 0, 0, 0) 83.18461%, rgba(0, 0, 0, 0) 84.07697%, rgba(100, 100, 225, 0.25) 84.07697%, rgba(100, 100, 225, 0.25) 88.78974%, rgba(0, 0, 0, 0) 88.78974%, rgba(0, 0, 0, 0) 89.6821%, rgba(100, 100, 225, 0.25) 89.6821%, rgba(100, 100, 225, 0.25) 94.39487%, rgba(0, 0, 0, 0) 94.39487%, rgba(0, 0, 0, 0) 95.28723%, rgba(100, 100, 225, 0.25) 95.28723%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 4.71277%, rgba(0, 0, 0, 0) 4.71277%, rgba(0, 0, 0, 0) 5.60513%, rgba(100, 100, 225, 0.25) 5.60513%, rgba(100, 100, 225, 0.25) 10.3179%, rgba(0, 0, 0, 0) 10.3179%, rgba(0, 0, 0, 0) 11.21026%, rgba(100, 100, 225, 0.25) 11.21026%, rgba(100, 100, 225, 0.25) 15.92303%, rgba(0, 0, 0, 0) 15.92303%, rgba(0, 0, 0, 0) 16.81539%, rgba(100, 100, 225, 0.25) 16.81539%, rgba(100, 100, 225, 0.25) 21.52817%, rgba(0, 0, 0, 0) 21.52817%, rgba(0, 0, 0, 0) 22.42052%, rgba(100, 100, 225, 0.25) 22.42052%, rgba(100, 100, 225, 0.25) 27.1333%, rgba(0, 0, 0, 0) 27.1333%, rgba(0, 0, 0, 0) 28.02566%, rgba(100, 100, 225, 0.25) 28.02566%, rgba(100, 100, 225, 0.25) 32.73843%, rgba(0, 0, 0, 0) 32.73843%, rgba(0, 0, 0, 0) 33.63079%, rgba(100, 100, 225, 0.25) 33.63079%, rgba(100, 100, 225, 0.25) 38.34356%, rgba(0, 0, 0, 0) 38.34356%, rgba(0, 0, 0, 0) 39.23592%, rgba(100, 100, 225, 0.25) 39.23592%, rgba(100, 100, 225, 0.25) 43.94869%, rgba(0, 0, 0, 0) 43.94869%, rgba(0, 0, 0, 0) 44.84105%, rgba(100, 100, 225, 0.25) 44.84105%, rgba(100, 100, 225, 0.25) 49.55382%, rgba(0, 0, 0, 0) 49.55382%, rgba(0, 0, 0, 0) 50.44618%, rgba(100, 100, 225, 0.25) 50.44618%, rgba(100, 100, 225, 0.25) 55.15895%, rgba(0, 0, 0, 0) 55.15895%, rgba(0, 0, 0, 0) 56.05131%, rgba(100, 100, 225, 0.25) 56.05131%, rgba(100, 100, 225, 0.25) 60.76408%, rgba(0, 0, 0, 0) 60.76408%, rgba(0, 0, 0, 0) 61.65644%, rgba(100, 100, 225, 0.25) 61.65644%, rgba(100, 100, 225, 0.25) 66.36921%, rgba(0, 0, 0, 0) 66.36921%, rgba(0, 0, 0, 0) 67.26157%, rgba(100, 100, 225, 0.25) 67.26157%, rgba(100, 100, 225, 0.25) 71.97434%, rgba(0, 0, 0, 0) 71.97434%, rgba(0, 0, 0, 0) 72.8667%, rgba(100, 100, 225, 0.25) 72.8667%, rgba(100, 100, 225, 0.25) 77.57948%, rgba(0, 0, 0, 0) 77.57948%, rgba(0, 0, 0, 0) 78.47183%, rgba(100, 100, 225, 0.25) 78.47183%, rgba(100, 100, 225, 0.25) 83.18461%, rgba(0, 0, 0, 0) 83.18461%, rgba(0, 0, 0, 0) 84.07697%, rgba(100, 100, 225, 0.25) 84.07697%, rgba(100, 100, 225, 0.25) 88.78974%, rgba(0, 0, 0, 0) 88.78974%, rgba(0, 0, 0, 0) 89.6821%, rgba(100, 100, 225, 0.25) 89.6821%, rgba(100, 100, 225, 0.25) 94.39487%, rgba(0, 0, 0, 0) 94.39487%, rgba(0, 0, 0, 0) 95.28723%, rgba(100, 100, 225, 0.25) 95.28723%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 4.71277%, rgba(0, 0, 0, 0) 4.71277%, rgba(0, 0, 0, 0) 5.60513%, rgba(100, 100, 225, 0.25) 5.60513%, rgba(100, 100, 225, 0.25) 10.3179%, rgba(0, 0, 0, 0) 10.3179%, rgba(0, 0, 0, 0) 11.21026%, rgba(100, 100, 225, 0.25) 11.21026%, rgba(100, 100, 225, 0.25) 15.92303%, rgba(0, 0, 0, 0) 15.92303%, rgba(0, 0, 0, 0) 16.81539%, rgba(100, 100, 225, 0.25) 16.81539%, rgba(100, 100, 225, 0.25) 21.52817%, rgba(0, 0, 0, 0) 21.52817%, rgba(0, 0, 0, 0) 22.42052%, rgba(100, 100, 225, 0.25) 22.42052%, rgba(100, 100, 225, 0.25) 27.1333%, rgba(0, 0, 0, 0) 27.1333%, rgba(0, 0, 0, 0) 28.02566%, rgba(100, 100, 225, 0.25) 28.02566%, rgba(100, 100, 225, 0.25) 32.73843%, rgba(0, 0, 0, 0) 32.73843%, rgba(0, 0, 0, 0) 33.63079%, rgba(100, 100, 225, 0.25) 33.63079%, rgba(100, 100, 225, 0.25) 38.34356%, rgba(0, 0, 0, 0) 38.34356%, rgba(0, 0, 0, 0) 39.23592%, rgba(100, 100, 225, 0.25) 39.23592%, rgba(100, 100, 225, 0.25) 43.94869%, rgba(0, 0, 0, 0) 43.94869%, rgba(0, 0, 0, 0) 44.84105%, rgba(100, 100, 225, 0.25) 44.84105%, rgba(100, 100, 225, 0.25) 49.55382%, rgba(0, 0, 0, 0) 49.55382%, rgba(0, 0, 0, 0) 50.44618%, rgba(100, 100, 225, 0.25) 50.44618%, rgba(100, 100, 225, 0.25) 55.15895%, rgba(0, 0, 0, 0) 55.15895%, rgba(0, 0, 0, 0) 56.05131%, rgba(100, 100, 225, 0.25) 56.05131%, rgba(100, 100, 225, 0.25) 60.76408%, rgba(0, 0, 0, 0) 60.76408%, rgba(0, 0, 0, 0) 61.65644%, rgba(100, 100, 225, 0.25) 61.65644%, rgba(100, 100, 225, 0.25) 66.36921%, rgba(0, 0, 0, 0) 66.36921%, rgba(0, 0, 0, 0) 67.26157%, rgba(100, 100, 225, 0.25) 67.26157%, rgba(100, 100, 225, 0.25) 71.97434%, rgba(0, 0, 0, 0) 71.97434%, rgba(0, 0, 0, 0) 72.8667%, rgba(100, 100, 225, 0.25) 72.8667%, rgba(100, 100, 225, 0.25) 77.57948%, rgba(0, 0, 0, 0) 77.57948%, rgba(0, 0, 0, 0) 78.47183%, rgba(100, 100, 225, 0.25) 78.47183%, rgba(100, 100, 225, 0.25) 83.18461%, rgba(0, 0, 0, 0) 83.18461%, rgba(0, 0, 0, 0) 84.07697%, rgba(100, 100, 225, 0.25) 84.07697%, rgba(100, 100, 225, 0.25) 88.78974%, rgba(0, 0, 0, 0) 88.78974%, rgba(0, 0, 0, 0) 89.6821%, rgba(100, 100, 225, 0.25) 89.6821%, rgba(100, 100, 225, 0.25) 94.39487%, rgba(0, 0, 0, 0) 94.39487%, rgba(0, 0, 0, 0) 95.28723%, rgba(100, 100, 225, 0.25) 95.28723%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
+    background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 4.71277%, rgba(0, 0, 0, 0) 4.71277%, rgba(0, 0, 0, 0) 5.60513%, rgba(100, 100, 225, 0.25) 5.60513%, rgba(100, 100, 225, 0.25) 10.3179%, rgba(0, 0, 0, 0) 10.3179%, rgba(0, 0, 0, 0) 11.21026%, rgba(100, 100, 225, 0.25) 11.21026%, rgba(100, 100, 225, 0.25) 15.92303%, rgba(0, 0, 0, 0) 15.92303%, rgba(0, 0, 0, 0) 16.81539%, rgba(100, 100, 225, 0.25) 16.81539%, rgba(100, 100, 225, 0.25) 21.52817%, rgba(0, 0, 0, 0) 21.52817%, rgba(0, 0, 0, 0) 22.42052%, rgba(100, 100, 225, 0.25) 22.42052%, rgba(100, 100, 225, 0.25) 27.1333%, rgba(0, 0, 0, 0) 27.1333%, rgba(0, 0, 0, 0) 28.02566%, rgba(100, 100, 225, 0.25) 28.02566%, rgba(100, 100, 225, 0.25) 32.73843%, rgba(0, 0, 0, 0) 32.73843%, rgba(0, 0, 0, 0) 33.63079%, rgba(100, 100, 225, 0.25) 33.63079%, rgba(100, 100, 225, 0.25) 38.34356%, rgba(0, 0, 0, 0) 38.34356%, rgba(0, 0, 0, 0) 39.23592%, rgba(100, 100, 225, 0.25) 39.23592%, rgba(100, 100, 225, 0.25) 43.94869%, rgba(0, 0, 0, 0) 43.94869%, rgba(0, 0, 0, 0) 44.84105%, rgba(100, 100, 225, 0.25) 44.84105%, rgba(100, 100, 225, 0.25) 49.55382%, rgba(0, 0, 0, 0) 49.55382%, rgba(0, 0, 0, 0) 50.44618%, rgba(100, 100, 225, 0.25) 50.44618%, rgba(100, 100, 225, 0.25) 55.15895%, rgba(0, 0, 0, 0) 55.15895%, rgba(0, 0, 0, 0) 56.05131%, rgba(100, 100, 225, 0.25) 56.05131%, rgba(100, 100, 225, 0.25) 60.76408%, rgba(0, 0, 0, 0) 60.76408%, rgba(0, 0, 0, 0) 61.65644%, rgba(100, 100, 225, 0.25) 61.65644%, rgba(100, 100, 225, 0.25) 66.36921%, rgba(0, 0, 0, 0) 66.36921%, rgba(0, 0, 0, 0) 67.26157%, rgba(100, 100, 225, 0.25) 67.26157%, rgba(100, 100, 225, 0.25) 71.97434%, rgba(0, 0, 0, 0) 71.97434%, rgba(0, 0, 0, 0) 72.8667%, rgba(100, 100, 225, 0.25) 72.8667%, rgba(100, 100, 225, 0.25) 77.57948%, rgba(0, 0, 0, 0) 77.57948%, rgba(0, 0, 0, 0) 78.47183%, rgba(100, 100, 225, 0.25) 78.47183%, rgba(100, 100, 225, 0.25) 83.18461%, rgba(0, 0, 0, 0) 83.18461%, rgba(0, 0, 0, 0) 84.07697%, rgba(100, 100, 225, 0.25) 84.07697%, rgba(100, 100, 225, 0.25) 88.78974%, rgba(0, 0, 0, 0) 88.78974%, rgba(0, 0, 0, 0) 89.6821%, rgba(100, 100, 225, 0.25) 89.6821%, rgba(100, 100, 225, 0.25) 94.39487%, rgba(0, 0, 0, 0) 94.39487%, rgba(0, 0, 0, 0) 95.28723%, rgba(100, 100, 225, 0.25) 95.28723%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
+    background-position: left top;
+    -webkit-background-origin: content;
+    -moz-background-origin: content;
+    -ms-background-origin: content-box;
+    -o-background-origin: content-box;
+    background-origin: content-box;
+    -webkit-background-clip: content-box;
+    -moz-background-clip: content-box;
+    background-clip: content-box;
+    *zoom: 1;
+    max-width: 896.5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: auto;
+    margin-right: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.base\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+    .l-header:after, .l-main:after, .l-region--footer:after {
+      content: "";
+      display: table;
+      clear: both; } }
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\00003178}}
+  .l-header, .l-main, .l-region--footer {
+    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(7.10084%, rgba(100, 100, 225, 0.25)), color-stop(7.10084%, rgba(0, 0, 0, 0)), color-stop(8.44538%, rgba(0, 0, 0, 0)), color-stop(8.44538%, rgba(100, 100, 225, 0.25)), color-stop(15.54622%, rgba(100, 100, 225, 0.25)), color-stop(15.54622%, rgba(0, 0, 0, 0)), color-stop(16.89076%, rgba(0, 0, 0, 0)), color-stop(16.89076%, rgba(100, 100, 225, 0.25)), color-stop(23.9916%, rgba(100, 100, 225, 0.25)), color-stop(23.9916%, rgba(0, 0, 0, 0)), color-stop(25.33613%, rgba(0, 0, 0, 0)), color-stop(25.33613%, rgba(100, 100, 225, 0.25)), color-stop(32.43697%, rgba(100, 100, 225, 0.25)), color-stop(32.43697%, rgba(0, 0, 0, 0)), color-stop(33.78151%, rgba(0, 0, 0, 0)), color-stop(33.78151%, rgba(100, 100, 225, 0.25)), color-stop(40.88235%, rgba(100, 100, 225, 0.25)), color-stop(40.88235%, rgba(0, 0, 0, 0)), color-stop(42.22689%, rgba(0, 0, 0, 0)), color-stop(42.22689%, rgba(100, 100, 225, 0.25)), color-stop(49.32773%, rgba(100, 100, 225, 0.25)), color-stop(49.32773%, rgba(0, 0, 0, 0)), color-stop(50.67227%, rgba(0, 0, 0, 0)), color-stop(50.67227%, rgba(100, 100, 225, 0.25)), color-stop(57.77311%, rgba(100, 100, 225, 0.25)), color-stop(57.77311%, rgba(0, 0, 0, 0)), color-stop(59.11765%, rgba(0, 0, 0, 0)), color-stop(59.11765%, rgba(100, 100, 225, 0.25)), color-stop(66.21849%, rgba(100, 100, 225, 0.25)), color-stop(66.21849%, rgba(0, 0, 0, 0)), color-stop(67.56303%, rgba(0, 0, 0, 0)), color-stop(67.56303%, rgba(100, 100, 225, 0.25)), color-stop(74.66387%, rgba(100, 100, 225, 0.25)), color-stop(74.66387%, rgba(0, 0, 0, 0)), color-stop(76.0084%, rgba(0, 0, 0, 0)), color-stop(76.0084%, rgba(100, 100, 225, 0.25)), color-stop(83.10924%, rgba(100, 100, 225, 0.25)), color-stop(83.10924%, rgba(0, 0, 0, 0)), color-stop(84.45378%, rgba(0, 0, 0, 0)), color-stop(84.45378%, rgba(100, 100, 225, 0.25)), color-stop(91.55462%, rgba(100, 100, 225, 0.25)), color-stop(91.55462%, rgba(0, 0, 0, 0)), color-stop(92.89916%, rgba(0, 0, 0, 0)), color-stop(92.89916%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 7.10084%, rgba(0, 0, 0, 0) 7.10084%, rgba(0, 0, 0, 0) 8.44538%, rgba(100, 100, 225, 0.25) 8.44538%, rgba(100, 100, 225, 0.25) 15.54622%, rgba(0, 0, 0, 0) 15.54622%, rgba(0, 0, 0, 0) 16.89076%, rgba(100, 100, 225, 0.25) 16.89076%, rgba(100, 100, 225, 0.25) 23.9916%, rgba(0, 0, 0, 0) 23.9916%, rgba(0, 0, 0, 0) 25.33613%, rgba(100, 100, 225, 0.25) 25.33613%, rgba(100, 100, 225, 0.25) 32.43697%, rgba(0, 0, 0, 0) 32.43697%, rgba(0, 0, 0, 0) 33.78151%, rgba(100, 100, 225, 0.25) 33.78151%, rgba(100, 100, 225, 0.25) 40.88235%, rgba(0, 0, 0, 0) 40.88235%, rgba(0, 0, 0, 0) 42.22689%, rgba(100, 100, 225, 0.25) 42.22689%, rgba(100, 100, 225, 0.25) 49.32773%, rgba(0, 0, 0, 0) 49.32773%, rgba(0, 0, 0, 0) 50.67227%, rgba(100, 100, 225, 0.25) 50.67227%, rgba(100, 100, 225, 0.25) 57.77311%, rgba(0, 0, 0, 0) 57.77311%, rgba(0, 0, 0, 0) 59.11765%, rgba(100, 100, 225, 0.25) 59.11765%, rgba(100, 100, 225, 0.25) 66.21849%, rgba(0, 0, 0, 0) 66.21849%, rgba(0, 0, 0, 0) 67.56303%, rgba(100, 100, 225, 0.25) 67.56303%, rgba(100, 100, 225, 0.25) 74.66387%, rgba(0, 0, 0, 0) 74.66387%, rgba(0, 0, 0, 0) 76.0084%, rgba(100, 100, 225, 0.25) 76.0084%, rgba(100, 100, 225, 0.25) 83.10924%, rgba(0, 0, 0, 0) 83.10924%, rgba(0, 0, 0, 0) 84.45378%, rgba(100, 100, 225, 0.25) 84.45378%, rgba(100, 100, 225, 0.25) 91.55462%, rgba(0, 0, 0, 0) 91.55462%, rgba(0, 0, 0, 0) 92.89916%, rgba(100, 100, 225, 0.25) 92.89916%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 7.10084%, rgba(0, 0, 0, 0) 7.10084%, rgba(0, 0, 0, 0) 8.44538%, rgba(100, 100, 225, 0.25) 8.44538%, rgba(100, 100, 225, 0.25) 15.54622%, rgba(0, 0, 0, 0) 15.54622%, rgba(0, 0, 0, 0) 16.89076%, rgba(100, 100, 225, 0.25) 16.89076%, rgba(100, 100, 225, 0.25) 23.9916%, rgba(0, 0, 0, 0) 23.9916%, rgba(0, 0, 0, 0) 25.33613%, rgba(100, 100, 225, 0.25) 25.33613%, rgba(100, 100, 225, 0.25) 32.43697%, rgba(0, 0, 0, 0) 32.43697%, rgba(0, 0, 0, 0) 33.78151%, rgba(100, 100, 225, 0.25) 33.78151%, rgba(100, 100, 225, 0.25) 40.88235%, rgba(0, 0, 0, 0) 40.88235%, rgba(0, 0, 0, 0) 42.22689%, rgba(100, 100, 225, 0.25) 42.22689%, rgba(100, 100, 225, 0.25) 49.32773%, rgba(0, 0, 0, 0) 49.32773%, rgba(0, 0, 0, 0) 50.67227%, rgba(100, 100, 225, 0.25) 50.67227%, rgba(100, 100, 225, 0.25) 57.77311%, rgba(0, 0, 0, 0) 57.77311%, rgba(0, 0, 0, 0) 59.11765%, rgba(100, 100, 225, 0.25) 59.11765%, rgba(100, 100, 225, 0.25) 66.21849%, rgba(0, 0, 0, 0) 66.21849%, rgba(0, 0, 0, 0) 67.56303%, rgba(100, 100, 225, 0.25) 67.56303%, rgba(100, 100, 225, 0.25) 74.66387%, rgba(0, 0, 0, 0) 74.66387%, rgba(0, 0, 0, 0) 76.0084%, rgba(100, 100, 225, 0.25) 76.0084%, rgba(100, 100, 225, 0.25) 83.10924%, rgba(0, 0, 0, 0) 83.10924%, rgba(0, 0, 0, 0) 84.45378%, rgba(100, 100, 225, 0.25) 84.45378%, rgba(100, 100, 225, 0.25) 91.55462%, rgba(0, 0, 0, 0) 91.55462%, rgba(0, 0, 0, 0) 92.89916%, rgba(100, 100, 225, 0.25) 92.89916%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 7.10084%, rgba(0, 0, 0, 0) 7.10084%, rgba(0, 0, 0, 0) 8.44538%, rgba(100, 100, 225, 0.25) 8.44538%, rgba(100, 100, 225, 0.25) 15.54622%, rgba(0, 0, 0, 0) 15.54622%, rgba(0, 0, 0, 0) 16.89076%, rgba(100, 100, 225, 0.25) 16.89076%, rgba(100, 100, 225, 0.25) 23.9916%, rgba(0, 0, 0, 0) 23.9916%, rgba(0, 0, 0, 0) 25.33613%, rgba(100, 100, 225, 0.25) 25.33613%, rgba(100, 100, 225, 0.25) 32.43697%, rgba(0, 0, 0, 0) 32.43697%, rgba(0, 0, 0, 0) 33.78151%, rgba(100, 100, 225, 0.25) 33.78151%, rgba(100, 100, 225, 0.25) 40.88235%, rgba(0, 0, 0, 0) 40.88235%, rgba(0, 0, 0, 0) 42.22689%, rgba(100, 100, 225, 0.25) 42.22689%, rgba(100, 100, 225, 0.25) 49.32773%, rgba(0, 0, 0, 0) 49.32773%, rgba(0, 0, 0, 0) 50.67227%, rgba(100, 100, 225, 0.25) 50.67227%, rgba(100, 100, 225, 0.25) 57.77311%, rgba(0, 0, 0, 0) 57.77311%, rgba(0, 0, 0, 0) 59.11765%, rgba(100, 100, 225, 0.25) 59.11765%, rgba(100, 100, 225, 0.25) 66.21849%, rgba(0, 0, 0, 0) 66.21849%, rgba(0, 0, 0, 0) 67.56303%, rgba(100, 100, 225, 0.25) 67.56303%, rgba(100, 100, 225, 0.25) 74.66387%, rgba(0, 0, 0, 0) 74.66387%, rgba(0, 0, 0, 0) 76.0084%, rgba(100, 100, 225, 0.25) 76.0084%, rgba(100, 100, 225, 0.25) 83.10924%, rgba(0, 0, 0, 0) 83.10924%, rgba(0, 0, 0, 0) 84.45378%, rgba(100, 100, 225, 0.25) 84.45378%, rgba(100, 100, 225, 0.25) 91.55462%, rgba(0, 0, 0, 0) 91.55462%, rgba(0, 0, 0, 0) 92.89916%, rgba(100, 100, 225, 0.25) 92.89916%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+    background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 7.10084%, rgba(0, 0, 0, 0) 7.10084%, rgba(0, 0, 0, 0) 8.44538%, rgba(100, 100, 225, 0.25) 8.44538%, rgba(100, 100, 225, 0.25) 15.54622%, rgba(0, 0, 0, 0) 15.54622%, rgba(0, 0, 0, 0) 16.89076%, rgba(100, 100, 225, 0.25) 16.89076%, rgba(100, 100, 225, 0.25) 23.9916%, rgba(0, 0, 0, 0) 23.9916%, rgba(0, 0, 0, 0) 25.33613%, rgba(100, 100, 225, 0.25) 25.33613%, rgba(100, 100, 225, 0.25) 32.43697%, rgba(0, 0, 0, 0) 32.43697%, rgba(0, 0, 0, 0) 33.78151%, rgba(100, 100, 225, 0.25) 33.78151%, rgba(100, 100, 225, 0.25) 40.88235%, rgba(0, 0, 0, 0) 40.88235%, rgba(0, 0, 0, 0) 42.22689%, rgba(100, 100, 225, 0.25) 42.22689%, rgba(100, 100, 225, 0.25) 49.32773%, rgba(0, 0, 0, 0) 49.32773%, rgba(0, 0, 0, 0) 50.67227%, rgba(100, 100, 225, 0.25) 50.67227%, rgba(100, 100, 225, 0.25) 57.77311%, rgba(0, 0, 0, 0) 57.77311%, rgba(0, 0, 0, 0) 59.11765%, rgba(100, 100, 225, 0.25) 59.11765%, rgba(100, 100, 225, 0.25) 66.21849%, rgba(0, 0, 0, 0) 66.21849%, rgba(0, 0, 0, 0) 67.56303%, rgba(100, 100, 225, 0.25) 67.56303%, rgba(100, 100, 225, 0.25) 74.66387%, rgba(0, 0, 0, 0) 74.66387%, rgba(0, 0, 0, 0) 76.0084%, rgba(100, 100, 225, 0.25) 76.0084%, rgba(100, 100, 225, 0.25) 83.10924%, rgba(0, 0, 0, 0) 83.10924%, rgba(0, 0, 0, 0) 84.45378%, rgba(100, 100, 225, 0.25) 84.45378%, rgba(100, 100, 225, 0.25) 91.55462%, rgba(0, 0, 0, 0) 91.55462%, rgba(0, 0, 0, 0) 92.89916%, rgba(100, 100, 225, 0.25) 92.89916%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+    background-position: left top;
+    -webkit-background-origin: content;
+    -moz-background-origin: content;
+    -ms-background-origin: content-box;
+    -o-background-origin: content-box;
+    background-origin: content-box;
+    -webkit-background-clip: content-box;
+    -moz-background-clip: content-box;
+    background-clip: content-box;
+    *zoom: 1;
+    max-width: 595px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: auto;
+    margin-right: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.base\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+    .l-header:after, .l-main:after, .l-region--footer:after {
+      content: "";
+      display: table;
+      clear: both; } }
