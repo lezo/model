@@ -23,6 +23,14 @@
     }
   }
 }
+/*------ language -------*/
+.block--locale-language {
+  .block__content {
+    li {
+      margin-left: px-to-rem(4);
+    }
+  }
+}
 /*------ main -----*/
 .block--system-main-menu, .block--superfish-1 {
   .menu {

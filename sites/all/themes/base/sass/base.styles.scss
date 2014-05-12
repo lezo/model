@@ -45,6 +45,9 @@ body {
   @include container;
   position:relative;
   padding-bottom: $footer + 10;
+  .l-content {
+    padding: px-to-rem(105) 0 px-to-rem(50);
+  }
 }
 .l-footer {
   position: absolute;
@@ -57,9 +60,9 @@ body {
 }
 
 /*----- Разработака ------*/
-.l-header, .l-main, .l-region--footer {
-  @include susy-grid-background;
-}
+//.l-header, .l-main, .l-region--footer {
+//  @include susy-grid-background;
+//}
 
 /*------------------------------ HEADER ----------------------------*/
 .l-header {
@@ -163,15 +166,44 @@ body {
 
 .page-node-5, .page-node-6 {
   .l-page {
-    background: #000;
+    background: $background_not_front;
+    .l-content {
+      h1 {
+        display: none;
+      }
+    }
     .node {
       .l-contact-wrapper {
         .l-contact-header {
+          margin-bottom: px-to-rem(140);
           .l-contact-map {
             @include span-columns(15, 32);
           }
           .l-contact-adress {
             @include span-columns(17 omega, 32);
+            padding-left: px-to-rem(47);
+            font-family: 'Myriad Pro Light';
+            font-weight: lighter;
+            line-height: px-to-rem(17);
+            @include font-size(29);
+            color: #fff;
+            h3, strong {
+              font-family: 'Myriad Pro Semibold';
+              font-weight: 700;
+              @include font-size(29);
+            }
+            h3 {
+              margin-bottom: px-to-rem(186);
+            }
+            .l-sm {
+              @include font-size(23);
+            }
+          }
+        }
+        .l-contact-footer {
+          .l-contact-purform {
+            @include span-columns(8);
+            @include isolate(13);
           }
         }
       }
