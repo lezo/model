@@ -56,6 +56,11 @@ body {
   @include container;
 }
 
+/*----- Разработака ------*/
+.l-header, .l-main, .l-region--footer {
+  @include susy-grid-background;
+}
+
 /*------------------------------ HEADER ----------------------------*/
 .l-header {
   .l-branding {
@@ -149,6 +154,26 @@ body {
         text-align: right;
         margin: 0;
         color: $color_nav;
+      }
+    }
+  }
+}
+
+/*------------------------------ PAGES ----------------------------*/
+
+.page-node-5 {
+  .l-page {
+    background: #000;
+    .node {
+      .l-contact-wrapper {
+        .l-contact-header {
+          .l-contact-map {
+            @include span-columns(15, 32);
+          }
+          .l-contact-adress {
+            @include span-columns(17 omega, 32);
+          }
+        }
       }
     }
   }
