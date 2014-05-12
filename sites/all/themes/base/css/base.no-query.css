@@ -309,15 +309,15 @@ body a {
 
 /*------------------------------ PAGES ----------------------------*/
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\00003165}}
-.page-node-5 .l-page {
+.page-node-5 .l-page, .page-node-6 .l-page {
   background: #000; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\00003170}}
-  .page-node-5 .l-page .node .l-contact-wrapper .l-contact-header .l-contact-map {
+  .page-node-5 .l-page .node .l-contact-wrapper .l-contact-header .l-contact-map, .page-node-6 .l-page .node .l-contact-wrapper .l-contact-header .l-contact-map {
     width: 46.60938%;
     float: left;
     margin-right: 0.5%; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/artem\/www\/domega\/sites\/all\/themes\/base\/sass\/base\.styles\.scss}line{font-family:\00003173}}
-  .page-node-5 .l-page .node .l-contact-wrapper .l-contact-header .l-contact-adress {
+  .page-node-5 .l-page .node .l-contact-wrapper .l-contact-header .l-contact-adress, .page-node-6 .l-page .node .l-contact-wrapper .l-contact-header .l-contact-adress {
     width: 52.89063%;
     float: right;
     margin-right: 0;
